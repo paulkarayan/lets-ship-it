@@ -6,6 +6,9 @@
 - each chapter is its own branch and is additive to the next one... all the way up to main
 
 ## fire up kind k8s cluster
+brew install kind
+kind create cluster --name lets-ship-it
+kubectl cluster-info --context kind-lets-ship-it
 
 ## Tests
 
