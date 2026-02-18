@@ -1,7 +1,8 @@
 # TODO
 
 ## Underlying helper tech
-
+- add copyediting and ai-slop
+- improve the narrative 
 
 
 ## Blog Posts
