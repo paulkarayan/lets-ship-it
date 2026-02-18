@@ -2,7 +2,7 @@
 uv, app/main.py, the pytest setup etc
 
 # run the app
-python ./app/main.py 
+python ./app/main.py
 ^^ won't work because we just defined a FastApi App but didnt run it.
 
 uvicorn app.main:app --reload
@@ -26,7 +26,7 @@ use `requests` or `httpx`
 this is equivalent of:
 curl http://localhost:8042/healthz
 
-note that this requires you to have that port specified. that's kind of a pain 
+note that this requires you to have that port specified. that's kind of a pain
 if you're spinning up a lot of containers. hold onto that thought.
 
 
@@ -37,7 +37,7 @@ rootdir: /Users/pk/side/lets-ship-it
 configfile: pyproject.toml
 testpaths: tests/pytest
 plugins: anyio-4.12.1
-collected 2 items                                                    
+collected 2 items
 
 tests/pytest/test_healthz.py ..                                [100%]
 

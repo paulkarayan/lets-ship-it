@@ -1,12 +1,18 @@
 # TODO
 
-## Ch 00: Simple HTTP API
+## Underlying helper tech
 
-- [ ] FastAPI app with `/healthz` endpoint
-- [ ] pytest setup and health endpoint test
-- [ ] Verify tests pass
 
-## Chapters
+
+## Blog Posts
+
+- Blog post on `sed 's/[[:space:]]*$//'` vs slash command — stripping trailing whitespace from files
+- Tonic.ai examples
+- Why I built the repo this way
+- How the tech helpers work
+
+
+## Draft of Chapters - likely out of date with reality
 
 | #  | Chapter                | What works after this                                          |
 |----|------------------------|----------------------------------------------------------------|
