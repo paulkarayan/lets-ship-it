@@ -1,4 +1,4 @@
-# Let's Ship It! A Testable Guide to Modern Cloud Infrastructure
+# Let's Ship It! A Verifiable Guide to Modern Cloud Infrastructure
 
 ## setup 
 - assumes you are using python and can install things with uv
