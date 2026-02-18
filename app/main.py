@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="k8s-is-g8s")
-
+app = FastAPI(title="lets-ship-it")
 
 @app.get("/healthz")
-def healthz() -> dict[str, str]:
+def healthz():
     return {"status": "ok"}

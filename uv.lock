@@ -134,7 +134,7 @@ wheels = [
 ]
 
 [[package]]
-name = "k8s-is-g8s"
+name = "lets-ship-it"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
