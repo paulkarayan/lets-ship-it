@@ -4,6 +4,7 @@
 - assumes you are using python and can install things with uv
 - you need to setup a KIND cluster for local k8s
 - each chapter is its own branch and is additive to the next one... all the way up to main
+- you should be able to point Claude code at things and have them described (see docker app example)
 
 ## fire up kind k8s cluster
 brew install kind
@@ -15,3 +16,10 @@ kubectl cluster-info --context kind-lets-ship-it
 ### application tests
 uvicorn app.main:app --port 8042
 uv run pytest
+
+
+
+## Helpers 
+
+remove the whitespace from copy/pasting from terminal
+/strip-whitespace chapters/raw/docker-app.md 

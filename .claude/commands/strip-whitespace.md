@@ -1,0 +1,1 @@
+Strip trailing whitespace from the file at $ARGUMENTS. Remove all trailing spaces and tabs from every line. Do not change anything else.
