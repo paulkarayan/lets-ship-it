@@ -13,4 +13,5 @@ kubectl cluster-info --context kind-lets-ship-it
 ## Tests
 
 ### application tests
+uvicorn app.main:app --port 8042
 uv run pytest

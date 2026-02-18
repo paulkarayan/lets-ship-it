@@ -11,6 +11,6 @@ def test_healthz():
     assert resp.json() == {"status": "ok"}
 
 def test_healthz_integration():
-    resp = httpx.get("http://localhost:8000/healthz")
+    resp = httpx.get("http://localhost:8042/healthz")
     assert resp.status_code == 200
     assert resp.json() == {"status": "ok"}
