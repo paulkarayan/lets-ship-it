@@ -1,5 +1,7 @@
 # A baby FastAPI App
 
+After this chapter you'll have a running FastAPI server with a health check endpoint and passing tests.
+
 I'm going to assume you can do minimal Python.
 
 I'm using `uv` for package management, pytest for application tests, and a fairly typical FastAPI application structure where our server is at  `app/main.py`.

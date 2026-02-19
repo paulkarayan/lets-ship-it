@@ -1,11 +1,3 @@
-- Control plane vs data plane breakdown (NOTES §1)
-
-  - Operators / reconcile loops conceptually (NOTES §4) —
-  sets up chapter 06 (Kopf) and 16 (Go operator)
-  - Admission webhooks conceptually (NOTES §3) — sets up why
-  image signing, policy enforcement matter later
-
-
 # Control Plane vs Data Plane
 
 Every Kubernetes cluster has two distinct halves.
