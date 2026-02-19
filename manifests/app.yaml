@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lets-ship-it
+  namespace: fastapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lets-ship-it
+  template:
+    metadata:
+      labels:
+        app: lets-ship-it
+    spec:
+      containers:
+        - name: lets-ship-it
+          image: lets-ship-it
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lets-ship-it
+  namespace: fastapi
+spec:
+  type: NodePort
+  selector:
+    app: lets-ship-it
+  ports:
+    - port: 8000
+      targetPort: 8000
