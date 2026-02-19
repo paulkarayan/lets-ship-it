@@ -13,6 +13,7 @@ I just put a health check endpoint in, so this is pretty boring - but we'll buil
 To run our app, your first instinct might be:
 
 ```bash
+# doesn't work
 python ./app/main.py
 ```
 
@@ -58,7 +59,7 @@ rootdir: /Users/pk/side/lets-ship-it
 configfile: pyproject.toml
 testpaths: tests/pytest
 plugins: anyio-4.12.1
-collected 2 items                                                     
+collected 2 items
 
 tests/pytest/test_healthz.py ..                                 [100%]
 
